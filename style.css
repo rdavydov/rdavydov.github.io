@@ -23,6 +23,13 @@ body {
     position: relative;
 }
 
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 #profilePicture, #profilePicture img {
     position: relative;
     width: 96px;
@@ -69,6 +76,10 @@ body {
     /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
     -webkit-tap-highlight-color: transparent;
     --accentColor2: #18222e;
+}
+
+.profile {
+    display: inline;
 }
 
 @media (hover: hover) {
