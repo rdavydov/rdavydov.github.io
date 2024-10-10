@@ -84,11 +84,13 @@ main {
 
 @media (hover: hover) {
     .link:hover {
-	transform: rotate(360deg);
-    	-webkit-transform: rotate(360deg);
         background-color: var(--accentColor);
         color: var(--bgColor);
         --accentColor2: #FFF;
+    }
+    .link:hover i {
+	transform: rotate(360deg);
+    	-webkit-transform: rotate(360deg);
     }
 }
 
