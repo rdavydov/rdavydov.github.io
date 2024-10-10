@@ -84,6 +84,8 @@ main {
 
 @media (hover: hover) {
     .link:hover {
+	transform: rotate(360deg);
+    	-webkit-transform: rotate(360deg);
         background-color: var(--accentColor);
         color: var(--bgColor);
         --accentColor2: #FFF;
@@ -95,6 +97,10 @@ main {
     color: var(--bgColor);
 }
 
+.link i {
+    transition-duration: 2s;
+    transition-property: transform;
+}
 
 /*-------------------------animations-----------------------*/
 @keyframes transitionAnimation {
