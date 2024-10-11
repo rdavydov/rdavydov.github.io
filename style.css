@@ -101,10 +101,10 @@ main {
 .link span,
 #userName {
   /* font-size: 0.9rem; /* 14.4px / 16 = 0.9rem */
+  /* font-size : clamp(0.8rem, 3vw, 0.9rem); */
   white-space  : nowrap;
   overflow     : hidden;
   text-overflow: ellipsis;
-  /* font-size : clamp(0.8rem, 3vw, 0.9rem); */
 }
 
 .link:active {
@@ -117,6 +117,7 @@ main {
 
 .link:hover i {
   transform: rotate(360deg);
+  transform-origin: center;
 }
 
 @media (max-width: 63px) {
