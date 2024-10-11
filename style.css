@@ -94,7 +94,7 @@ main {
 }
 
 .link span {
-    font-size: 0.9rem; /* 14.4px / 16 = 0.9rem */
+    /* font-size: 0.9rem; /* 14.4px / 16 = 0.9rem */
     /* line-height: 1.25; */
     white-space: nowrap;
     overflow: hidden;
@@ -112,7 +112,7 @@ main {
     }
 
     .link span {
-        font-size: 0.85rem; /* 13.6px / 16 = 0.85rem */
+        /* font-size: 0.85rem; /* 13.6px / 16 = 0.85rem */
     }
 }
 
